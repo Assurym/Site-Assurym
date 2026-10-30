@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assurym — Navbar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/navbar.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="navbar" aria-label="Navigation principale">
+      <a href="navbar.html" class="navbar__brand">
+        <img src="images/Assurym-black.png" alt="Assurym" class="navbar__logo" />
+      </a>
+
+      <button
+        class="navbar__toggle"
+        id="navToggle"
+        type="button"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Ouvrir le menu"
+      >
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+
+      <div class="navbar__menu" id="navMenu">
+        <ul class="navbar__links">
+          <li><a href="#accueil" class="navbar__link is-active">Accueil</a></li>
+          <li><a href="#assurances" class="navbar__link">Assurances</a></li>
+          <li><a href="#services" class="navbar__link">Services</a></li>
+          <li><a href="#apropos" class="navbar__link">À propos</a></li>
+          <li><a href="#contact" class="navbar__link">Contact</a></li>
+        </ul>
+
+        <div class="navbar__actions">
+          <a href="#espace-client" class="btn btn--ghost">Espace client</a>
+          <a href="#devis" class="btn btn--primary">Demander un devis</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contenu de la plateforme à venir -->
+  </main>
+
+  <script src="js/navbar.js"></script>
+</body>
+</html>
